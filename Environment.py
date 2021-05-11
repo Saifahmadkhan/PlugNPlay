@@ -1,3 +1,10 @@
+from gym import spaces 
+import copy
+import math
+import random
+import pandas as pd
+import numpy as np
+import gym
 class StatesEnv(gym.Env):
     metadata = {'render.modes':['human']}
     def __init__(self, episodes, state_condition_array, susc_col, number_of_context_parameters, buckets):    #susceptible ratio is ratio of susceptible people in that state/total susceptible people combining all states
