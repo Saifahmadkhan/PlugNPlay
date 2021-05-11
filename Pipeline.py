@@ -1,3 +1,5 @@
+from PlugNPlay.Environment import StatesEnv
+from PlugNPlay.Models import DQN_model,ACKTR_model
 class Pipeline():
     def __init__(self,data_object,model_type="DQN"):
         if model_type not in ['ACKTR','DQN']:
