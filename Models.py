@@ -1,3 +1,4 @@
+from stable_baselines import DQN,ACKTR
 class DQN_model():
     def __init__(self, policy='MlpPolicy', learning_rate=1e-3, prioritized_replay=True, verbose=1, exploration_fraction=0.2):
         self.policy=policy
