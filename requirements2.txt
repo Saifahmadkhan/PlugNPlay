@@ -1,3 +1,4 @@
-swig cmake
+swig
+cmake
 libopenmpi-dev
 zlib1g-dev
