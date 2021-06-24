@@ -52,7 +52,7 @@ pipeline_obj.run()
 ```
 
 # Citation
-If you use Cardea for your research, please consider citing the following paper:
+If you use VacSIM for your research, please consider citing the following paper:
 
 [VacSIM: Learning Effective Strategies for COVID-19 Vaccine Distribution using Reinforcement Learning](https://arxiv.org/abs/2009.06602).
 
